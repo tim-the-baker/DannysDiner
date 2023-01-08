@@ -1,5 +1,4 @@
 ### Question 1
-### Question 1
 ````sql
 -- 1. What is the total amount each customer spent at the restaurant?
 SELECT
@@ -17,7 +16,6 @@ ORDER BY s.customer_id;
 | C           | 36          |
 
 ---
-### Question 2
 ### Question 2
 ````sql
 -- 2. How many days has each customer visited the restaurant?
@@ -63,8 +61,6 @@ ORDER BY customer_id;
 | C           | ramen        |
 
 ---
-### Question 4
-
 ### Question 4
 ````sql
 -- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
