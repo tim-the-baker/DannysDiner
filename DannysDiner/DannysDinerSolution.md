@@ -1,4 +1,4 @@
-###Question 1
+### Question 1
 ````sql
 -- 1. What is the total amount each customer spent at the restaurant?
 SELECT
@@ -16,7 +16,7 @@ ORDER BY s.customer_id;
 | C           | 36          |
 
 ---
-###Question 2
+### Question 2
 ````sql
 -- 2. How many days has each customer visited the restaurant?
 SELECT
@@ -34,7 +34,7 @@ ORDER BY customer_id;
 | C           | 2           |
 ---
 
-###Question 3
+### Question 3
 ````sql
 -- 3. What was the first item from the menu purchased by each customer?
 WITH rank_by_date AS(
@@ -63,7 +63,7 @@ ORDER BY customer_id;
 
 ---
 
-###Question 4
+### Question 4
 ````sql
 -- 4. What is the most purchased item on the menu... 
 WITH ranked_prod_count AS (
